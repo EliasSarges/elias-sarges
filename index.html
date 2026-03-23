@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elias Castro — Frontend Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <!-- ==========================================
+NAVEGAÇÃO
+========================================== -->
+    <nav id="main-nav">
+      <div class="nav-inner">
+        <a href="#sobre" class="nav-logo">EC<span>.</span></a>
+
+        <!-- Links de âncora para as seções -->
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+
+        <div class="nav-controls">
+          <!-- Hamburguer para mobile -->
+          <button id="menu-toggle" aria-label="Abrir menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ==========================================
+SEÇÃO: SOBRE MIM
+========================================== -->
+    <section id="sobre">
+      <div class="container">
+        <div class="hero-grid">
+          <div>
+            <span class="hero-tag">Disponível para novas oportunidades</span>
+            <h1 class="hero-name">Elias<br /><em>Castro</em></h1>
+            <p class="hero-role">Frontend Developer · React · TypeScript</p>
+            <p class="hero-desc">
+              Desenvolvedor front-end com mais de 4 anos de experiência criando
+              interfaces performáticas e acessíveis. Apaixonado por código
+              limpo, boas práticas e experiências de usuário memoráveis.
+            </p>
+            <div class="hero-cta">
+              <a href="#contato" class="btn btn-primary">Fale comigo</a>
+              <a href="#portfolio" class="btn btn-outline">Ver experiências</a>
+            </div>
+
+            <div class="hobbies" style="margin-top: 40px">
+              <span class="hobby"
+                ><span class="hobby-icon">🎮</span> Games</span
+              >
+              <span class="hobby"
+                ><span class="hobby-icon">📚</span> Leitura</span
+              >
+              <span class="hobby"
+                ><span class="hobby-icon">🎵</span> Música</span
+              >
+              <span class="hobby"
+                ><span class="hobby-icon">🚴</span> Ciclismo</span
+              >
+              <span class="hobby"
+                ><span class="hobby-icon">☕</span> Café & código</span
+              >
+            </div>
+          </div>
+
+          <div style="transition-delay: 0.15s">
+            <div class="hero-card">
+              <p class="hero-card-title">// perfil rápido</p>
+
+              <div class="stat-grid">
+                <div class="stat">
+                  <div class="stat-number">4+</div>
+                  <div class="stat-label">anos de XP</div>
+                </div>
+                <div class="stat">
+                  <div class="stat-number">2+</div>
+                  <div class="stat-label">empresas</div>
+                </div>
+                <div class="stat">
+                  <div class="stat-number">181</div>
+                  <div class="stat-label">conexões LinkedIn</div>
+                </div>
+                <div class="stat">
+                  <div class="stat-number">SC</div>
+                  <div class="stat-label">Joinville, Brasil</div>
+                </div>
+              </div>
+
+              <!-- Tecnologias principais -->
+              <p class="hero-card-title" style="margin-bottom: 12px">
+                // stack
+              </p>
+              <div class="tech-pills">
+                <span class="pill">React</span>
+                <span class="pill">TypeScript</span>
+                <span class="pill">JavaScript</span>
+                <span class="pill">Node.js</span>
+                <span class="pill">Vue.js</span>
+                <span class="pill">Git</span>
+                <span class="pill">Monorepo</span>
+                <span class="pill">CSS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+SEÇÃO: FORMAÇÃO
+========================================== -->
+    <section id="formacao">
+      <div class="container">
+        <span class="section-label">Educação &amp; Cursos</span>
+        <h2 class="section-title">Formação</h2>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">2022 — presente</div>
+            <div class="timeline-title">
+              Análise e Desenvolvimento de Sistemas
+            </div>
+            <div class="timeline-sub">
+              UNINTER Centro Universitário Internacional · Joinville, SC
+            </div>
+            <div class="timeline-desc">
+              Graduação tecnológica com foco em desenvolvimento de software,
+              estruturas de dados, banco de dados e engenharia de software.
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div class="card-block">
+            <h3>// cursos &amp; certificações</h3>
+            <ul class="course-list">
+              <li>React com TypeScript — Origamid</li>
+              <li>CSS Grid Layout — Origamid</li>
+              <li>Node.js completo — Rocketseat</li>
+              <li>Git e GitHub — Alura</li>
+            </ul>
+          </div>
+
+          <div class="card-block" id="lang-card">
+            <h3>// idiomas</h3>
+
+            <div class="lang-item">
+              <div class="lang-header">
+                <span>Português</span
+                ><span style="color: var(--accent)">Nativo</span>
+              </div>
+              <div class="lang-bar">
+                <div class="lang-fill" data-pct="100"></div>
+              </div>
+            </div>
+
+            <div class="lang-item">
+              <div class="lang-header">
+                <span>Inglês</span
+                ><span style="color: var(--accent)">Intermediário</span>
+              </div>
+              <div class="lang-bar">
+                <div class="lang-fill" data-pct="60"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+SEÇÃO: PORTFÓLIO / EXPERIÊNCIA
+========================================== -->
+    <section id="portfolio">
+      <div class="container">
+        <span class="section-label">Trabalhos &amp; Experiências</span>
+        <h2 class="section-title">Portfólio</h2>
+
+        <div class="exp-grid">
+          <!-- Experiência 1: Movisis -->
+          <div class="exp-card">
+            <div>
+              <div class="exp-company">Movisis Tecnologia Ltda</div>
+              <div class="exp-title">Frontend Developer</div>
+              <div class="exp-period">
+                Jan 2022 — Presente · 4 anos 3 meses · Joinville, SC
+              </div>
+              <div class="exp-desc">
+                Atuei como desenvolvedor líder da equipe de front-end, iniciando
+                no desenvolvimento e manutenção de dois projetos Web. Após
+                alguns meses, assumi a responsabilidade de migrar e refatorar o
+                projeto legado para TypeScript. Também fui encarregado de criar
+                um monorepo para compartilhamento de componentes entre as
+                aplicações.
+              </div>
+              <div class="exp-tags">
+                <span class="tag">React</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Git</span>
+                <span class="tag">Monorepo</span>
+                <span class="tag">CSS</span>
+                <span class="tag">Liderança técnica</span>
+              </div>
+            </div>
+            <span class="exp-badge">Atual</span>
+          </div>
+
+          <!-- Experiência 2: Multiplier -->
+          <div class="exp-card">
+            <div>
+              <div class="exp-company">Multiplier</div>
+              <div class="exp-title">Software Developer</div>
+              <div class="exp-period">
+                Jul 2021 — Out 2021 · 4 meses · Jaraguá do Sul, SC
+              </div>
+              <div class="exp-desc">
+                Iniciei na equipe de integração, onde utilizei TypeScript e
+                Node.js para integrações de sistemas. Posteriormente, surgiu a
+                oportunidade de me juntar ao time de front-end, trabalhando com
+                Vue.js no desenvolvimento de novas funcionalidades.
+              </div>
+              <div class="exp-tags">
+                <span class="tag">TypeScript</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Vue.js</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Git</span>
+              </div>
+            </div>
+            <span class="exp-badge">2021</span>
+          </div>
+
+          <!-- Experiência 3: Secretaria Municipal da Educação -->
+          <div class="exp-card">
+            <div>
+              <div class="exp-company">Secretaria Municipal da Educação</div>
+              <div class="exp-title">Software Developer</div>
+              <div class="exp-period">
+                Fev 2021 — Jul 2021 · 6 meses · São Luís, MA · Estágio
+              </div>
+              <div class="exp-desc">
+                Participei ativamente da equipe envolvida na implantação do
+                Google Workspace na rede de ensino remoto da prefeitura.
+                Trabalhei no desenvolvimento e utilização de uma API em Python
+                para gerenciamento do Google Classroom, que atendeu a uma base
+                de mais de 95 mil alunos.
+              </div>
+              <div class="exp-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Google Workspace</span>
+                <span class="tag">Google Classroom API</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Git</span>
+              </div>
+            </div>
+            <span class="exp-badge">2021</span>
+          </div>
+
+          <!-- Experiência 4: SEIJnet Brasil -->
+          <div class="exp-card">
+            <div>
+              <div class="exp-company">SEIJnet Brasil</div>
+              <div class="exp-title">Software Developer</div>
+              <div class="exp-period">
+                Jul 2020 — Fev 2021 · 8 meses · São Luís, MA · Estágio
+              </div>
+              <div class="exp-desc">
+                Iniciei desenvolvendo e dando manutenção ao backend com PHP e
+                Laravel, além de atuar no front-end com Vue.js. Posteriormente,
+                tive a oportunidade de participar do desenvolvimento do
+                aplicativo oficial da empresa utilizando React Native.
+              </div>
+              <div class="exp-tags">
+                <span class="tag">PHP</span>
+                <span class="tag">Laravel</span>
+                <span class="tag">Vue.js</span>
+                <span class="tag">React Native</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Git</span>
+              </div>
+            </div>
+            <span class="exp-badge">2020</span>
+          </div>
+
+          <div class="exp-card">
+            <div>
+              <div class="exp-company">Projeto Pessoal</div>
+              <div class="exp-title">Ant-Logic — DDD Learning Lab</div>
+              <div class="exp-period">Em desenvolvimento</div>
+              <div class="exp-desc">
+                Simulação de ecossistema descentralizado baseado em colônias de
+                formigas, criado para estudar e aplicar Domain-Driven Design
+                (DDD) na prática. O sistema modela comportamentos emergentes —
+                regras individuais simples das formigas gerando resultados
+                complexos na colônia. A interface é uma Console Application
+                (.NET) que renderiza o mundo em ASCII art, exibindo movimento
+                das formigas, rastros químicos e fontes de alimento.
+              </div>
+              <div class="exp-tags">
+                <span class="tag">.NET</span>
+                <span class="tag">C#</span>
+                <span class="tag">DDD</span>
+                <span class="tag">ASCII art</span>
+                <span class="tag">Simulação</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/EliasSarges/ant-atlas"
+                  class="project-link"
+                  target="_blank"
+                  rel="noopener"
+                  >↗ GitHub</a
+                >
+              </div>
+            </div>
+            <span class="exp-badge">WIP</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+     SEÇÃO: CONTATO
+     ========================================== -->
+    <section id="contato">
+      <div class="container">
+        <span class="section-label">Vamos conversar</span>
+        <h2 class="section-title">Contato</h2>
+
+        <div class="contact-grid">
+          <!-- Informações de contato -->
+          <div>
+            <h3>Pronto para<br />novos projetos.</h3>
+            <p>
+              Estou aberto a oportunidades de emprego, freelas e colaborações.
+              Manda uma mensagem — respondo rápido!
+            </p>
+
+            <ul class="contact-list">
+              <li>
+                <span class="c-icon">📍</span>
+                Joinville, Santa Catarina, Brasil
+              </li>
+              <li>
+                <span class="c-icon">💼</span>
+                <a
+                  href="https://www.linkedin.com/in/elias-sarges/"
+                  target="_blank"
+                  rel="noopener"
+                  >linkedin.com/in/elias-sarges</a
+                >
+              </li>
+              <li>
+                <span class="c-icon">🐙</span>
+                <a
+                  href="https://github.com/EliasSarges"
+                  target="_blank"
+                  rel="noopener"
+                  >github.com/EliasSarges</a
+                >
+              </li>
+              <li>
+                <span class="c-icon">📧</span>
+                <a>eliassarges@outlook.com</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Formulário de contato com validação JS -->
+          <div style="transition-delay: 0.15s">
+            <form id="contact-form" novalidate>
+              <div class="form-group">
+                <label for="nome">Nome</label>
+                <input
+                  type="text"
+                  id="nome"
+                  name="nome"
+                  placeholder="Seu nome completo"
+                />
+                <div class="field-error" id="err-nome">
+                  Por favor, informe seu nome.
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="seu@email.com"
+                />
+                <div class="field-error" id="err-email">
+                  Informe um e-mail válido (ex:
+                  <a>email@email.com</a>).
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea
+                  id="mensagem"
+                  name="mensagem"
+                  placeholder="Conte sobre seu projeto..."
+                ></textarea>
+                <div class="field-error" id="err-mensagem">
+                  Por favor, escreva uma mensagem.
+                </div>
+              </div>
+
+              <button
+                type="submit"
+                class="btn btn-primary"
+                style="width: 100%; border: none"
+              >
+                Enviar mensagem →
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+RODAPÉ
+========================================== -->
+    <footer>
+      <div class="container">
+        <p>Desenvolvido por <span>Elias Castro</span> · <span>2025</span></p>
+      </div>
+    </footer>
+
+    <!-- ==========================================
+MODAL DE CONFIRMAÇÃO
+========================================== -->
+    <div
+      class="modal-overlay"
+      id="modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-title"
+    >
+      <div class="modal">
+        <div class="modal-icon">✅</div>
+        <h3 id="modal-title">Mensagem enviada!</h3>
+        <p>
+          Obrigado pelo contato,
+          <strong id="modal-nome"></strong>.<br />Responderei em breve.
+        </p>
+        <button class="modal-close" id="modal-close-btn">Fechar</button>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
